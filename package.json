@@ -1,0 +1,15 @@
+{
+    "name": "threejs-template",
+    "private": true,
+    "version": "0.0.0",
+    "author": "sudoCss",
+    "type": "module",
+    "scripts": {
+        "installDeps": "npm i -D @types/dat.gui @types/three @typescript-eslint/eslint-plugin @typescript-eslint/parser @vitejs/plugin-legacy eslint eslint-config-prettier prettier typescript vite; npm i dat.gui gsap three",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "lint": "eslint --ignore-path .gitignore .",
+        "format": "prettier --write --ignore-path .gitignore ."
+    }
+}
