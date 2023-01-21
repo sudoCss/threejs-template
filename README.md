@@ -31,7 +31,7 @@ There is some code for a basic cube and lighting in the `src/scene.js` file so y
 
 -   DON'T MOVE OR EDIT THE `scene.d.ts` & `vite-env.d.ts` FILES UNLESS YOU KNOW WHAT YOU'RE DOING
 -   THE `main.ts` FILE THE ENTRY POINT TO THE CODE, DON'T MOVE OR EDIT IT UNLESS YOU KNOW WHAT YOU'RE DOING
--   You can remove all the code from the `src/scene.js` file and start clean
+-   You can remove all the code from the `src/scene.js` file and start clean BUT YOU HAVE TO REMEMBER TO EXPORT YOUR `main` FUNCTION!!!
 -   You can change the `src/scene.js` to `src/scene.ts` if you prefer to work `TypeScript` instead of vanilla `JavaScript`
 -   You can add as much folders and `.ts` & `.js` files as you want
 -   You can put any assets(images, sounds, etc...) in the `public` folder which will be treated as the the root `/`, for example you can put `img.png` in the `public` folder and then refer to it in your code as `/img.png` not `public/img.png`
