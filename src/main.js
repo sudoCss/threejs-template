@@ -1,3 +1,5 @@
+import "./style.css";
+
 import {
     AmbientLight,
     BoxGeometry,
@@ -92,3 +94,6 @@ export const main = () => {
     init();
     loop();
 };
+
+/* Main program (function calls) */
+main();
