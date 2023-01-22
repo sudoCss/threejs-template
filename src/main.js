@@ -47,6 +47,7 @@ const handleWindowResize = () => {
     canvas.height = window.innerHeight;
 
     renderer.setSize(canvas.width, canvas.height);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
     camera.aspect = canvas.width / canvas.height;
     camera.updateProjectionMatrix();
@@ -55,8 +56,6 @@ const handleWindowResize = () => {
 };
 
 const init = () => {
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-
     controls.enableDamping = true;
     controls.dampingFactor = 0.05;
     controls.maxPolarAngle = Math.PI / 2;
