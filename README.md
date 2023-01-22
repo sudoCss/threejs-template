@@ -29,7 +29,7 @@ There is some code for a basic cube and lighting in the `src/main.js` file so yo
 ## Notes
 
 1.  THE `main.js` FILE IS THE ENTRY POINT TO THE CODE, DON'T MOVE IT UNLESS YOU KNOW WHAT YOU'RE DOING
-2.  DON'T REMOVE THE `import "./style.css` LINE AT THE TOP OF `src/main.js` FILE
+2.  DON'T REMOVE THE `import "./style.css"` LINE AT THE TOP OF `src/main.js` FILE
 3.  You can remove all the code(PLEASE READ NOTE NUMBER 2) from the `src/main.js` file and start clean
 4.  You can add as much folders and `.ts` & `.js` files as you want (this template supports TypeScript too)
 5.  You can put any assets(images, sounds, etc...) in the `public` folder which will be treated as the the root `/`, for example you can put `img.png` in the `public` folder and then refer to it in your code as `/img.png` not `public/img.png`
